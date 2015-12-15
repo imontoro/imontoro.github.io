@@ -1,7 +1,7 @@
 # Site settings
 title: "Iván Montoro"
-header-img: img/home-bg.jpg
-email: hello@ivanmontoro.com
+header-img: "img/home-bg.jpg"
+email: "hello@ivanmontoro.com"
 description: "Ideas en la nube"
 baseurl: ""
 url: "http://www.ivanmontoro.com"
@@ -16,6 +16,6 @@ highlighter: pygments
 #permalink: pretty
 permalink: date
 paginate: 5
-paginate_path: "/p/:num/"
+#paginate_path: "/p/:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: ["jekyll-paginate"]
