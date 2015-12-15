@@ -1,18 +1,21 @@
 # Site settings
-title: Clean Blog
+title: "Iván Montoro"
 header-img: img/home-bg.jpg
 email: hello@ivanmontoro.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+description: "Ideas en la nube"
 baseurl: ""
 url: "http://www.ivanmontoro.com"
 twitter_username: imontoro
 github_username: imontoro
 facebook_username: ivan.montoro
+linkedin_username: ivanmontoro
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
-permalink: pretty
+#permalink: pretty
+permalink: date
 paginate: 5
+paginate_path: "/p/:num/"
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 gems: ["jekyll-paginate"]
