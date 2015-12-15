@@ -41,4 +41,15 @@ header-img-credits: "[NASA on The Commons](https://www.flickr.com/photos/nasacom
 
 <p>As I stand out here in the wonders of the unknown at Hadley, I sort of realize there’s a fundamental truth to our nature, Man must explore, and this is exploration at its greatest.</p>
 
+~~~javascript
+var s = "Hello javascript";
+alert(s);
+~~~
+
+{% highlight ruby %}
+def foo
+  puts 'foo'
+end
+{% endhighlight %}
+
 <p>Placeholder text by <a href="http://spaceipsum.com/">Space Ipsum</a>. Photographs by <a href="https://www.flickr.com/photos/nasacommons/">NASA on The Commons</a>.</p>
