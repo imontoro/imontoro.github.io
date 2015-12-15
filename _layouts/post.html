@@ -16,11 +16,6 @@ layout: default
                 </div>
             </div>
         </div>
-        {% if page.header-img-credits %}
-        <div class="row">
-            <div class="pull-right caption text-muted">Crédito: {% capture header-img-credits %}{{ page.header-img-credits }}{% endcapture %} {{ header-img-credits | markdownify | remove: '<p>' | remove: '</p>' }}</div>
-        </div>
-        {% endif %}
     </div>
 </header>
 
