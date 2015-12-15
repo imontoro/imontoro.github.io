@@ -14,6 +14,8 @@ layout: default
                 </div>
             </div>
         </div>
+        {% if page.header-img-credits %}<div class="row pull-right caption text-muted">{{ page.header-img-credits | markdownify | remove:'<p>' | remove:'</p>' }}</div>
+        {% else %}<div class="row pull-right caption text-muted">{{ site.header-img-credits | markdownify | remove:'<p>' | remove:'</p>' }}</div>{% endif %}
     </div>
 </header>
 

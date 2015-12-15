@@ -1,7 +1,9 @@
 # Site settings
 title: "Iván Montoro"
 #header-img: "img/home-bg.jpg"
+#header-img: "img/8268059620_68ad7f616f_k_d.jpg"
 header-img: "img/8268059620_c7df4e3c9e_o_1920x870_50.jpg"
+header-img-credits: "[ice diving - all ok under the ice](https://www.flickr.com/photos/nurpax/8268059620) by nurpax \\| [CC BY-NC-ND](https://creativecommons.org/licenses/by-nc-nd/2.0/)"
 email: "hello@ivanmontoro.com"
 description: "Ideas en la nube"
 baseurl: ""
